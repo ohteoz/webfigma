@@ -5,7 +5,27 @@ body {
     background-color: #f8f8f8;
     color: #333;
 }
-
+header {
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 18px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 15px 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 section {
     padding: 40px 20px;
     max-width: 900px;
@@ -62,67 +82,6 @@ footer {
     color: white;
     font-size: 14px;
 }
-
-*{
-    font-family: Arial;
-  }
-  
-  ul{
-    display: none;
-  }
-  
-  input:checked  ~ ul{
-    display:block;
-  }
-  
-  input {
-    display: none;
-  }
-  
-  label {
-    box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-  }
-  
-  /* Estilo del boton cuando se pasa el mouse por encima*/
-  label:hover{
-    background: grey;
-  }
-  
-  /* Estilo del boton cuando el menú está expandido*/
-  input:checked ~ label {
-    background: lightgrey; 
-  }
-  
-  ul{
-    margin-top:0;
-    padding: 0;
-    width: 200px;
-  
-  }
-  
-  
-  li {
-    display: block;
-    background: lightgrey;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid grey;
-  }
-  
-  /*Estilo cuando el mouse pasa encima de cada link del menu*/
-  li:hover {
-    filter: brightness(110%);
-  }
 
 
 @media (max-width: 600px) {
